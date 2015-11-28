@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5F718E21C05F18C004BBA06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F718E11C05F18C004BBA06 /* main.m */; };
+		F5F718E51C05F18C004BBA06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F718E41C05F18C004BBA06 /* AppDelegate.m */; };
+		F5F718E81C05F18C004BBA06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F718E71C05F18C004BBA06 /* ViewController.m */; };
+		F5F718EB1C05F18C004BBA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F718E91C05F18C004BBA06 /* Main.storyboard */; };
+		F5F718ED1C05F18D004BBA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F718EC1C05F18D004BBA06 /* Assets.xcassets */; };
+		F5F718F01C05F18D004BBA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F718EE1C05F18D004BBA06 /* LaunchScreen.storyboard */; };
+		F5F718FB1C05F18D004BBA06 /* rotateRugbyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F718FA1C05F18D004BBA06 /* rotateRugbyTests.m */; };
+		F5F719061C05F18D004BBA06 /* rotateRugbyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F719051C05F18D004BBA06 /* rotateRugbyUITests.m */; };
+		F5F719141C05F1DB004BBA06 /* rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F719131C05F1DB004BBA06 /* rugby.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F718F71C05F18D004BBA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F718D51C05F18C004BBA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F718DC1C05F18C004BBA06;
+			remoteInfo = rotateRugby;
+		};
+		F5F719021C05F18D004BBA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F718D51C05F18C004BBA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F718DC1C05F18C004BBA06;
+			remoteInfo = rotateRugby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5F718DD1C05F18C004BBA06 /* rotateRugby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotateRugby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F718E11C05F18C004BBA06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5F718E31C05F18C004BBA06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5F718E41C05F18C004BBA06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5F718E61C05F18C004BBA06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5F718E71C05F18C004BBA06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5F718EA1C05F18C004BBA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F718EC1C05F18D004BBA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F718EF1C05F18D004BBA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5F718F11C05F18D004BBA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F718F61C05F18D004BBA06 /* rotateRugbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotateRugbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F718FA1C05F18D004BBA06 /* rotateRugbyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rotateRugbyTests.m; sourceTree = "<group>"; };
+		F5F718FC1C05F18D004BBA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F719011C05F18D004BBA06 /* rotateRugbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotateRugbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F719051C05F18D004BBA06 /* rotateRugbyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rotateRugbyUITests.m; sourceTree = "<group>"; };
+		F5F719071C05F18D004BBA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F719131C05F1DB004BBA06 /* rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugby.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F718DA1C05F18C004BBA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F718F31C05F18D004BBA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F718FE1C05F18D004BBA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5F718D41C05F18C004BBA06 = {
+			isa = PBXGroup;
+			children = (
+				F5F718DF1C05F18C004BBA06 /* rotateRugby */,
+				F5F718F91C05F18D004BBA06 /* rotateRugbyTests */,
+				F5F719041C05F18D004BBA06 /* rotateRugbyUITests */,
+				F5F718DE1C05F18C004BBA06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F718DE1C05F18C004BBA06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F718DD1C05F18C004BBA06 /* rotateRugby.app */,
+				F5F718F61C05F18D004BBA06 /* rotateRugbyTests.xctest */,
+				F5F719011C05F18D004BBA06 /* rotateRugbyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F718DF1C05F18C004BBA06 /* rotateRugby */ = {
+			isa = PBXGroup;
+			children = (
+				F5F718E31C05F18C004BBA06 /* AppDelegate.h */,
+				F5F718E41C05F18C004BBA06 /* AppDelegate.m */,
+				F5F718E61C05F18C004BBA06 /* ViewController.h */,
+				F5F718E71C05F18C004BBA06 /* ViewController.m */,
+				F5F718E91C05F18C004BBA06 /* Main.storyboard */,
+				F5F718EC1C05F18D004BBA06 /* Assets.xcassets */,
+				F5F718EE1C05F18D004BBA06 /* LaunchScreen.storyboard */,
+				F5F718F11C05F18D004BBA06 /* Info.plist */,
+				F5F718E01C05F18C004BBA06 /* Supporting Files */,
+			);
+			path = rotateRugby;
+			sourceTree = "<group>";
+		};
+		F5F718E01C05F18C004BBA06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F719131C05F1DB004BBA06 /* rugby.png */,
+				F5F718E11C05F18C004BBA06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F718F91C05F18D004BBA06 /* rotateRugbyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F718FA1C05F18D004BBA06 /* rotateRugbyTests.m */,
+				F5F718FC1C05F18D004BBA06 /* Info.plist */,
+			);
+			path = rotateRugbyTests;
+			sourceTree = "<group>";
+		};
+		F5F719041C05F18D004BBA06 /* rotateRugbyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F719051C05F18D004BBA06 /* rotateRugbyUITests.m */,
+				F5F719071C05F18D004BBA06 /* Info.plist */,
+			);
+			path = rotateRugbyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F718DC1C05F18C004BBA06 /* rotateRugby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F7190A1C05F18D004BBA06 /* Build configuration list for PBXNativeTarget "rotateRugby" */;
+			buildPhases = (
+				F5F718D91C05F18C004BBA06 /* Sources */,
+				F5F718DA1C05F18C004BBA06 /* Frameworks */,
+				F5F718DB1C05F18C004BBA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rotateRugby;
+			productName = rotateRugby;
+			productReference = F5F718DD1C05F18C004BBA06 /* rotateRugby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F718F51C05F18D004BBA06 /* rotateRugbyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F7190D1C05F18D004BBA06 /* Build configuration list for PBXNativeTarget "rotateRugbyTests" */;
+			buildPhases = (
+				F5F718F21C05F18D004BBA06 /* Sources */,
+				F5F718F31C05F18D004BBA06 /* Frameworks */,
+				F5F718F41C05F18D004BBA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F718F81C05F18D004BBA06 /* PBXTargetDependency */,
+			);
+			name = rotateRugbyTests;
+			productName = rotateRugbyTests;
+			productReference = F5F718F61C05F18D004BBA06 /* rotateRugbyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F719001C05F18D004BBA06 /* rotateRugbyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F719101C05F18D004BBA06 /* Build configuration list for PBXNativeTarget "rotateRugbyUITests" */;
+			buildPhases = (
+				F5F718FD1C05F18D004BBA06 /* Sources */,
+				F5F718FE1C05F18D004BBA06 /* Frameworks */,
+				F5F718FF1C05F18D004BBA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F719031C05F18D004BBA06 /* PBXTargetDependency */,
+			);
+			name = rotateRugbyUITests;
+			productName = rotateRugbyUITests;
+			productReference = F5F719011C05F18D004BBA06 /* rotateRugbyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F718D51C05F18C004BBA06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = baotrung;
+				TargetAttributes = {
+					F5F718DC1C05F18C004BBA06 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F5F718F51C05F18D004BBA06 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F5F718DC1C05F18C004BBA06;
+					};
+					F5F719001C05F18D004BBA06 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F5F718DC1C05F18C004BBA06;
+					};
+				};
+			};
+			buildConfigurationList = F5F718D81C05F18C004BBA06 /* Build configuration list for PBXProject "rotateRugby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F718D41C05F18C004BBA06;
+			productRefGroup = F5F718DE1C05F18C004BBA06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F718DC1C05F18C004BBA06 /* rotateRugby */,
+				F5F718F51C05F18D004BBA06 /* rotateRugbyTests */,
+				F5F719001C05F18D004BBA06 /* rotateRugbyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F718DB1C05F18C004BBA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F718F01C05F18D004BBA06 /* LaunchScreen.storyboard in Resources */,
+				F5F719141C05F1DB004BBA06 /* rugby.png in Resources */,
+				F5F718ED1C05F18D004BBA06 /* Assets.xcassets in Resources */,
+				F5F718EB1C05F18C004BBA06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F718F41C05F18D004BBA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F718FF1C05F18D004BBA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F718D91C05F18C004BBA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F718E81C05F18C004BBA06 /* ViewController.m in Sources */,
+				F5F718E51C05F18C004BBA06 /* AppDelegate.m in Sources */,
+				F5F718E21C05F18C004BBA06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F718F21C05F18D004BBA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F718FB1C05F18D004BBA06 /* rotateRugbyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F718FD1C05F18D004BBA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F719061C05F18D004BBA06 /* rotateRugbyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F718F81C05F18D004BBA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F718DC1C05F18C004BBA06 /* rotateRugby */;
+			targetProxy = F5F718F71C05F18D004BBA06 /* PBXContainerItemProxy */;
+		};
+		F5F719031C05F18D004BBA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F718DC1C05F18C004BBA06 /* rotateRugby */;
+			targetProxy = F5F719021C05F18D004BBA06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F718E91C05F18C004BBA06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F718EA1C05F18C004BBA06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F718EE1C05F18D004BBA06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F718EF1C05F18D004BBA06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F719081C05F18D004BBA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5F719091C05F18D004BBA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F7190B1C05F18D004BBA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rotateRugby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = baotrung.rotateRugby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5F7190C1C05F18D004BBA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rotateRugby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = baotrung.rotateRugby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5F7190E1C05F18D004BBA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rotateRugbyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = baotrung.rotateRugbyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotateRugby.app/rotateRugby";
+			};
+			name = Debug;
+		};
+		F5F7190F1C05F18D004BBA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rotateRugbyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = baotrung.rotateRugbyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotateRugby.app/rotateRugby";
+			};
+			name = Release;
+		};
+		F5F719111C05F18D004BBA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rotateRugbyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = baotrung.rotateRugbyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rotateRugby;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5F719121C05F18D004BBA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rotateRugbyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = baotrung.rotateRugbyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rotateRugby;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F718D81C05F18C004BBA06 /* Build configuration list for PBXProject "rotateRugby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F719081C05F18D004BBA06 /* Debug */,
+				F5F719091C05F18D004BBA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F7190A1C05F18D004BBA06 /* Build configuration list for PBXNativeTarget "rotateRugby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F7190B1C05F18D004BBA06 /* Debug */,
+				F5F7190C1C05F18D004BBA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5F7190D1C05F18D004BBA06 /* Build configuration list for PBXNativeTarget "rotateRugbyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F7190E1C05F18D004BBA06 /* Debug */,
+				F5F7190F1C05F18D004BBA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5F719101C05F18D004BBA06 /* Build configuration list for PBXNativeTarget "rotateRugbyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F719111C05F18D004BBA06 /* Debug */,
+				F5F719121C05F18D004BBA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F718D51C05F18C004BBA06 /* Project object */;
+}
